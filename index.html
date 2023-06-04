@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Oleo+Script&family=Roboto+Condensed:ital,wght@1,400;1,700&family=Roboto+Mono:ital,wght@1,500&family=Satisfy&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Oleo+Script&family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+
+<script>
+
+    function updateDateTime() {
+      var currentDate = new Date();
+      var dateElement = document.getElementById("date");
+      var timeElement = document.getElementById("time");
+
+      // Format the date
+      var options = { year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+      // Format the time
+      var formattedTime = currentDate.toLocaleTimeString();
+
+      // Update the HTML elements
+      dateElement.innerHTML = formattedDate;
+      timeElement.innerHTML = formattedTime;
+    }
+
+    // Update the date and time every second
+    setInterval(updateDateTime, 1000);
+
+  </script>
+
+
+ 
+</head>
+
+<header>
+
+<div class="logo"><img src="C:\Users\DSP\Downloads\images-removebg-preview (2).png"hight="100px"width="100px"></div>
+
+
+<div class="navbar">
+
+<a href=""><b>About</b></a>
+<a href=""><b>Contact</b></a>
+<a href=""><b>Service</b></a>
+
+</div>
+
+
+<body>
+
+  <p>Date: <span id="date"></span></p>
+  <p>Time: <span id="time"></span></p>
+
+<br><br>
+
+<div class="image">
+<img id="img1" src="C:\Users\DSP\Desktop\20210215_202236[1].jpg" height="300px"width="200px"align="left"></div>
+
+<center><h3><br>HEY YO!!!<br><br><br>I am Ugyen Dorjee.<br> As a recent graduate, I am eager to begin my career and bring my skills and passion to the workforce. With a solid web dev background I have developed strong critical thinking, communication, and time management skills. Additionally, I have completed several internships and volunteer opportunities that have provided me with valuable hands-on experience in my field of interest. I am a quick learner, an excellent team player, and have a strong desire to continue learning and growing in my career.</h3></center>
+
+ 
+
+<center>
+
+<img src="C:\Users\DSP\Desktop\images-removebg-preview (3).png">
+
+</center>
+
+
+</body>
+
+<footer>
+
+<BR><BR><BR>
+
+<hr>
+
+<table>
+
+		<tr>
+		
+		<th>Name</th>
+		<th>contact</th>
+		<th>Address</th>
+		<th>E.mail
+
+		<tr>
+			
+	    <td>Ugyen Dorjee</td>
+        <td>17672284</td><br>
+	    <td><a href="https://www.google.com/maps/place/Gyelposhing/@27.2753747,91.2372197,17.05z/data=!4m6!3m5!1s0x375c03176b468cdf:0xd4c21b7aeffb5fa6!8m2!3d27.2753739!4d91.2397775!16s%2Fg%2F11t4k0qtxj?entry=ttu">Gyelpozhing</td>
+		<td><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">dorjiu22.gmail.com</td>
+
+</footer>
+</html>
+
+
